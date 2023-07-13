@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu 20.04
 ARG NGROK_TOKEN
 ARG REGION=ap
 ENV DEBIAN_FRONTEND=noninteractive
